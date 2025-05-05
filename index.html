@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IT Code Snippets</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      margin-bottom: 40px;
+      cursor: pointer;
+    }
+    h2 {
+      margin-top: 50px;
+    }
+  </style>
+  <script>
+    function copyCode(id) {
+      const textarea = document.getElementById(id);
+      textarea.select();
+      document.execCommand("copy");
+      alert("Code copied!");
+    }
+  </script>
+</head>
+<body>
+
+<h1>i guess lab 12 </h1>
+
+<h2>Main Page</h2>
+<textarea id="code1">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;St. Francis College&lt;/title&gt;
+    &lt;style&gt;
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: #c9c9c9;
+        padding: 20px;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 15px;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      &lt;img src="logo.jpeg" alt="St. Francis" width="100" /&gt;
+      &lt;h1&gt;St. Francis College&lt;/h1&gt;
+      &lt;p&gt;Address: PB.NO. 3417, 3rd Block, 8th Main,Koramangala Bengaluru - 560034.&lt;/p&gt;
+    &lt;/header&gt;
+    
+    &lt;nav&gt;
+      &lt;a href="home.html"&gt;Home&lt;/a&gt;
+      &lt;a href="about.html"&gt;About&lt;/a&gt;
+      &lt;a href="courses.html"&gt;Courses&lt;/a&gt;
+      &lt;a href="contactus.html"&gt;Contact Us&lt;/a&gt;
+    &lt;/nav&gt;
+
+    &lt;main&gt;
+      &lt;p&gt;Welcome to St. Francis College website&lt;/p&gt;
+      &lt;p&gt;We provide quality education and youth tips.&lt;/p&gt;
+    &lt;/main&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+</textarea>
+<button onclick="copyCode('code1')">Copy Main Page Code</button>
+
+<h2>About Page</h2>
+<textarea id="code2">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;About Us - St. Francis College&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;About&lt;/h1&gt;
+    &lt;p&gt;St. Francis College Bangalore is a minority Christian college.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+</textarea>
+<button onclick="copyCode('code2')">Copy About Page Code</button>
+
+<h2>Home Page</h2>
+<textarea id="code3">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;St. Francis College&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;St. Francis College&lt;/h1&gt;
+    &lt;p&gt;Vision : To be a chrysalis, where young students are transformed into graduate/ postgraduate entrepreneurs and innovative leaders of tomorrow's world, consistent with the Franciscan vision of integrity, peace, and love.&lt;/p&gt;
+    &lt;p&gt;Mission : To churn out highly competent graduates / postgraduates with a commitment to result-oriented work, a perennial zest for learning, a quest for excellence, an open mind, and the universal values of honesty, dignity, and mutual care.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+</textarea>
+<button onclick="copyCode('code3')">Copy Home Page Code</button>
+
+<h2>Courses Page</h2>
+<textarea id="code4">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Courses&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Courses&lt;/h1&gt;
+    &lt;h2&gt;BCA&lt;/h2&gt;
+    &lt;h2&gt;MCA&lt;/h2&gt;
+    &lt;h2&gt;BCOM&lt;/h2&gt;
+    &lt;h2&gt;BBA&lt;/h2&gt;
+    &lt;h2&gt;BSC&lt;/h2&gt;
+    &lt;h2&gt;MCOM&lt;/h2&gt;
+    &lt;h2&gt;MBA&lt;/h2&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+</textarea>
+<button onclick="copyCode('code4')">Copy Courses Page Code</button>
+
+<h2>Contact Page</h2>
+<textarea id="code5">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Contact Us&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Contact Us&lt;/h1&gt;
+    &lt;p&gt;Address: PB.NO. 3417, 3rd Block, 8th Main,Koramangala Bengaluru - 560034.&lt;/p&gt;
+    &lt;p&gt;Phone: 080-25531037&lt;/p&gt;
+    &lt;p&gt;Email: info@stfranciscollege.edu.in&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+</textarea>
+<button onclick="copyCode('code5')">Copy Contact Page Code</button>
+
+</body>
+</html>
